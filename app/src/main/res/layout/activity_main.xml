@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.admin.jsonparsinginlistview.MainActivity">
+<LinearLayout
+
+    android:background="#424242"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/marker"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/fingerclick"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <ListView
+      android:id="@+id/userList"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  </ListView>
+</LinearLayout>
+
+</LinearLayout>
